@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
+  console.log(`Ro-Service is listening at http://localhost:${port}`)
 })
 
 app.get('/Shout', function(req, res) {
